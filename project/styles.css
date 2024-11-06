@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: pink;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    background-color: #ffedf0;
+    color: #333;
+    background-image: url('gm.png');
+    background-size: 100px;
+    
+}
+
+.shop-btn {
+    background-color: #ff6f91;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.product-section {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.buy-btn {
+    background-color: #ff6f91;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    cursor: pointer;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    background-color: #ffe6e9;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section input, 
+.contact-section textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+.row{ 
+    display: flex; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    padding: 20px; 
+} 
+.col-2{ 
+    flex-basis: 50%; 
+    min-width: 300px; 
+} 
+.col-2 img{ 
+    max-width: 100%; 
+    padding: 50px 0; 
+} 
+.col-2 h1{ 
+    font-size: 60px; 
+    line-height: 62px; 
+    margin: 25px 0; 
+} 
+.link{
+    color:white;
+}
+
+
+.footer{ 
+    background-color: black; 
+     
+} 
+.footer-col-1{ 
+    color: #fff; 
+    text-align: center; 
+} 
+.footer-col-2{ 
+     
+    text-align: center; 
+} 
+.footer-col-3{ 
+    color: white; 
+} 
+.footer-col-4{ 
+    color: white; 
+} 
+.footer-para{ 
+    color: white; 
+} 
